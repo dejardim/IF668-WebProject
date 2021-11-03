@@ -117,13 +117,78 @@ img {
     font-size: 2em;
     max-width: 960px;
     margin: 0 auto;
-    padding: 60px 10px;
+    padding: 90px 10px;
     align-items: center;
     justify-content: center;
 }
 
 .ml-meme p {
     padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .ml-meme {
+        padding: 60px 10px;
+    }
+}
+
+/* Archives */
+
+.links {
+    border-top: 2px solid #764462;
+    max-width: 960px;
+    margin: 60px auto;
+    padding: 60px 0;
+}
+
+.links h1 {
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+
+.links a {
+    color: #2C2137;
+}
+
+.links a:hover {
+    color: #764462;
+}
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: #f7f7f7;
+}
+
+.links-item {
+    flex: 1 1 175px;
+    margin: 10px;
+    padding: 60px 20px;
+}
+
+.order2 {
+
+    order: 1;
+}
+
+.order1 {
+
+    order: 3;
+}
+
+.order3 {
+    
+    order: 2;
+}
+
+@media (max-width: 600px) {
+    .links-item {
+        margin: 0;
+    }
+    .links h1 {
+        font-size: 2.25em;
+    }
 }
 
 /* About Me */
@@ -148,6 +213,13 @@ img {
     margin-bottom: .5em;
 }
 
+@media (max-width: 600px) {
+    .about-info h1 {
+        font-size: 2.25em;
+        margin-bottom: .6em;
+    }
+}
+
 .about-info p {
     font-size: 1.25em;
     line-height: 1.4;
@@ -158,59 +230,6 @@ img {
 .about-img {
     flex: 1 1 160px;
     margin: 0 10px;
-}
-
-/* Other Links */
-
-.links {
-    max-width: 960px;
-    margin: 60px auto;
-}
-
-.links h1 {
-    font-size: 3em;
-    margin: 0 10px 60px 10px;
-}
-
-.links a {
-    color: #2C2137;
-}
-
-.links a:hover {
-    color: #764462;
-}
-
-.links-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-.links-item {
-    flex: 1 1 175px;
-    margin: 10px;
-}
-
-.links-item h2 {
-    font-size: 3em;
-    color: #222;
-    background: #f7f7f7;
-    padding: 60px 20px;
-}
-
-.order2 {
-    border-top: 8px solid #A96868;
-    order: 2;
-}
-
-.order1 {
-    border-top: 8px solid #EDB4A1;
-    order: 1;
-}
-
-.order3 {
-    border-top: 8px solid #EDB4A1;
-    order: 3;
 }
 
 /* Interests */
@@ -227,6 +246,12 @@ img {
     font-size: 3em;
     margin: 0 10px;
     margin-bottom: .5em;
+}
+
+@media (max-width: 600px) {
+    #interests h1 {
+        font-size: 2.25em;
+    }
 }
 
 .interests {
