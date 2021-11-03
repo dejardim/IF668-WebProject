@@ -4,4 +4,4 @@ IF668 Web Project is my personal website and portfolio. It is hosting on my doma
 
 IF668 Web Project is responsive, but doesn't enforce any dependencies, just use HTML and CSS.
 
-"@author" = {"Matheus Victor Alves da Silva"}
+info = {"@author": "Matheus Victor Alves da Silva"}
